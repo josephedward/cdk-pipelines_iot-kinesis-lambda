@@ -1,0 +1,65 @@
+* 9e35a45 (HEAD -> emr-sensi-stage) Update cdk-pipeline-app-stack.ts
+*   e2f2e96 Merge branch 'sandbox' into emr-sensi-stage
+|\  
+| * eda5c4e (origin/sandbox, origin/HEAD, sandbox) update
+| * 9974128 update
+| * afcdb2d lambda build stage
+| * 8715594 Update cdk-pipeline-app-stack.ts
+| * 50805da combining infra and lambda build
+| * bd74a37 Create pipeline-slack-approval-stack.ts
+| * 7c8e801 commit
+| * d9b0b8f slack integration POC
+* | 7153fbe (origin/emr-sensi-stage) update
+* | afc58f5 Update cdk-pipeline-app.ts
+* | f569cf2 Squashed commit of the following:
+* | 42e0fc1 Squashed commit of the following:
+* | f3c9ce5 commit
+* |   3c4ecd7 Merge branch 'main' into emr-sensi-stage
+|\ \  
+* | | a0bbaa4 Update cdk-pipeline-app-stack.ts
+* | | 0ac0c3a Update cdk-pipeline-app.ts
+* | |   c89c520 Merge branch 'sandbox' into emr-sensi-stage
+|\ \ \  
+* | | | fdd4dae rename
+| | | | * 702a0b3 (origin/main, main) Delete hello-world-lambda.ts
+| | | | * 80d8f09 Delete hello-world-lambda.ts
+| | | | * 1e708d0 Squashed commit of the following:
+| | | | * f02e89f commit
+| | | |/  
+| | |/|   
+| | * | 5db2008 Merge branch 'sandbox'
+| |/| | 
+|/| |/  
+| | * 8076534 slack approval flow
+| |/  
+* | ebc12d3 update
+* | 40de20f testing multistage
+* | a303f08 update
+* | b57ae20 Update pipeline-stack.ts
+| | * 2228ae2 (refs/stash) On sandbox: !!GitHub_Desktop<sandbox>
+| |/| 
+| | * e16f681 index on sandbox: e677c3d update
+| |/  
+| * e677c3d update
+| * 4e375cc Update README.md
+| * 8ee3e91 Update cdk-pipeline-app-stack.ts
+| * c99e285 Update cdk-pipeline-app-stack.ts
+| * a233468 Update cdk-pipeline-app-stack.ts
+| * 2ff134c Update cdk-pipeline-app-stack.ts
+| * caa389e Update cdk-pipeline-app-stack.ts
+| * 56d8590 Update cdk-pipeline-app-stack.ts
+| * 73b636c Update cdk-pipeline-app-stack.ts
+| * 6b1111a Update cdk-pipeline-app-stack.ts
+| * f017c45 Update package.json
+| * e654485 update
+| * b593472 update
+| * 2f7ccec update
+| * bf03de0 Update pipeline-stack.ts
+| * 7622ec2 cleaning
+| * 0e705a2 Update pipeline-stack.ts
+| * 75172d0 Update README.md
+| * aff202d rename
+| * 04f60db rename
+|/  
+* 68c4bea update
+* 72143c4 1

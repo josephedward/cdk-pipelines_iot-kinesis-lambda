@@ -1,15 +1,15 @@
 #!/usr/bin/env node
-import 'source-map-support/register';
-import * as cdk from '@aws-cdk/core';
-import { CdkPipelineAppStack } from '../lib/cdk-pipeline-app-stack';
-import { CodePipelineSlackApprovalStack } from '../lib/pipeline-slack-approval-stack';
+import "source-map-support/register";
+import * as cdk from "@aws-cdk/core";
+import { CdkPipelineAppStack } from "../lib/cdk-pipeline-app-stack";
 
 const app = new cdk.App();
-new CodePipelineSlackApprovalStack(app, 'CdkPipelineAppStack', {
+new CdkPipelineAppStack(app, "CdkPipelineAppStack", {
   env: {
-    account: "",
+    account: "794548384198",
     region: "us-east-1",
   },
+
   /* If you don't specify 'env', this stack will be environment-agnostic.
    * Account/Region-dependent features and context lookups will not work,
    * but a single synthesized template can be deployed anywhere. */
@@ -25,4 +25,3 @@ new CodePipelineSlackApprovalStack(app, 'CdkPipelineAppStack', {
   /* For more information, see https://docs.aws.amazon.com/cdk/latest/guide/environments.html */
 });
 app.synth();
-
